@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import {
   Sparkles,
   Send,
-  Terminal,
   ArrowRight,
   ChevronRight,
   Code2,
@@ -692,35 +691,6 @@ export default function App() {
                     </div>
                   </ScrollReveal>
                 ))}
-
-                {/* Simulated Interactive Telemetry Console to reinforce premium feeling */}
-                <ScrollReveal direction="up" delay={0.36} duration={0.65} className="h-full">
-                  <div className="bg-white border border-cyan-150 p-6 rounded-2xl flex flex-col justify-between shadow-sm h-full" id="skills-simulated-console">
-                    <div>
-                      <h3 className="text-sm font-mono font-bold text-slate-900 uppercase tracking-widest mb-4 flex items-center gap-2">
-                        <Terminal className="w-4 h-4 text-cyan-600" />
-                        Optimization Console
-                      </h3>
-                      <p className="text-xs text-slate-600 leading-relaxed font-mono space-y-1 mb-4">
-                        All software artifacts are rigorously audited by modern guidelines:
-                      </p>
-                      <ul className="text-[11px] font-mono text-slate-500 space-y-1.5 list-disc pl-4">
-                        <li>Bundle size budget strict check (&lt; 150KB gzip)</li>
-                        <li>CSS utility purge via PostCSS / AST parse</li>
-                        <li>Memoization for expensive calculation nodes</li>
-                        <li>Semantic HTML5 layout structure ensuring SEO</li>
-                      </ul>
-                    </div>
-
-                    <div className="p-3 bg-slate-50 rounded-xl border border-slate-100 mt-4 flex flex-col gap-1.5 text-left" id="vitals-status-box">
-                      <span className="text-[9px] font-mono text-cyan-700 uppercase tracking-widest font-bold">Core Web Vitals status</span>
-                      <div className="flex items-center gap-2">
-                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse shrink-0"></span>
-                        <span className="text-[10px] font-mono text-emerald-600 font-bold">99 / 100 PASS</span>
-                      </div>
-                    </div>
-                  </div>
-                </ScrollReveal>
 
               </div>
 
