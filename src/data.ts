@@ -34,8 +34,8 @@ export const PROJECTS_DATA: Project[] = [
     title: "An Dat Clinic Management",
     subtitle: "Healthcare & Appointment Management Platform",
     description: "Healthcare management platform for international clinics coordinating appointment schedules, doctor profiles, and Electronic Medical Records (EMR).",
-    fullDetails: "Multi-threaded healthcare system for international clinics, managing medical records and consultation timetables. Built on Node.js & Express coupled with MongoDB/MySQL, integrating custom Redis caching and streamlined pagination to shave 30% off API response latencies.",
-    tags: ["Node.js", "Express.js", "MongoDB", "MySQL", "Redis", "Cloudinary"],
+    fullDetails: "Multi-threaded healthcare system for international clinics, managing medical records and consultation timetables. Built on Node.js & Express coupled with MySQL, integrating custom Redis caching and streamlined pagination to shave 30% off API response latencies.",
+    tags: ["Node.js", "Express.js", "MySQL", "Redis", "Cloudinary"],
     category: "Web Performance",
     metrics: "30% reduction in API response latency with database indexing and query tuning",
     imagePrompt: "modern elegant blue medical patient booking records dashboard desktop console app",
@@ -95,7 +95,7 @@ export const EXPERIENCE_DATA: Experience[] = [
       "Reduced average API response/data retrieval latency by 30%, enabling seamless fast-loading user interactions across patients and clinic admins.",
       "Integrated Cloudinary for secure medical image storage and JWT-based authentication for medical records privacy."
     ],
-    skills: ["Node.js", "Express.js", "MongoDB", "MySQL", "Redis", "Cloudinary", "Mongoose", "JWT"]
+    skills: ["Node.js", "Express.js", "MySQL", "Redis", "Cloudinary", "JWT"]
   }
 ];
 
