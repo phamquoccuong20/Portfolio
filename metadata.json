@@ -1,0 +1,8 @@
+{
+  "name": "Interactive Dev Portfolio",
+  "description": "A highly polished, interactive portfolio for an agile Full-Stack & Systems Developer, featuring full 3D interactive particle overlays, active viewport terminal simulators, and custom bento card tilts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
