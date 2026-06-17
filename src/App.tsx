@@ -130,7 +130,7 @@ export default function App() {
             </div>
             <span className="text-lg font-bold tracking-tight text-slate-900 group-hover:text-cyan-600 transition-colors duration-200">
               QUOC CUONG<span className="text-cyan-500 font-black">.</span>
-              <span className="block text-[9px] text-slate-500 font-mono font-normal tracking-widest uppercase">Full-Stack Developer</span>
+              <span className="block text-[9px] text-slate-500 font-normal tracking-widest uppercase">Full-Stack Developer</span>
             </span>
           </div>
 
@@ -170,7 +170,7 @@ export default function App() {
 
           {/* Direct Pulse Availability Badge */}
           <div className="flex items-center gap-3" id="header-availability-badge">
-            <div className="hidden lg:flex px-4 py-2 border border-emerald-250 rounded-full text-[10px] font-mono text-emerald-700 items-center gap-2 bg-emerald-50 backdrop-blur-sm shadow-sm">
+            <div className="hidden lg:flex px-4 py-2 border border-emerald-250 rounded-full text-[10px] text-emerald-700 items-center gap-2 bg-emerald-50 backdrop-blur-sm shadow-sm">
               <span className="w-2.5 h-2.5 bg-emerald-500 rounded-full animate-ping absolute duration-1000" />
               <span className="w-2.5 h-2.5 bg-emerald-500 rounded-full relative" />
               AVAILABLE FOR NEW ROLES
@@ -179,7 +179,7 @@ export default function App() {
             {/* Quick action: Contact */}
             <button 
               onClick={() => scrollToSection("contact")}
-              className="px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white font-bold font-mono text-xs uppercase tracking-wider rounded-xl transition-all duration-300 hover:shadow-lg active:scale-95 cursor-pointer"
+              className="px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs uppercase tracking-wider rounded-xl transition-all duration-300 hover:shadow-lg active:scale-95 cursor-pointer"
               id="quick-contact-button"
             >
               Let's Talk
@@ -200,7 +200,7 @@ export default function App() {
             <div className="lg:col-span-7 flex flex-col justify-center" id="hero-info-column">
               
               {/* Specialized Tagline */}
-              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-cyan-50 border border-cyan-200 rounded-full text-xs font-mono text-cyan-700 w-fit mb-6" id="hero-mini-tag">
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-cyan-50 border border-cyan-200 rounded-full text-xs text-cyan-700 w-fit mb-6" id="hero-mini-tag">
                 <Sparkles className="w-3.5 h-3.5" />
                 <span>FULL-STACK DEVELOPER</span>
               </div>
@@ -238,12 +238,12 @@ export default function App() {
 
               {/* Tech Stack quick badges */}
               <div className="mt-16 border-t border-slate-200 pt-8" id="hero-mini-stack">
-                <p className="text-[10px] font-mono uppercase tracking-widest text-slate-400 mb-4">core tech stack</p>
+                <p className="text-[10px] uppercase tracking-widest text-slate-400 mb-4">core tech stack</p>
                 <div className="flex flex-wrap gap-2.5">
                   {["React & Next.js", "TypeScript", "Node.js (Express)", "WebSocket", "SQL Server / MySQL", "Docker"].map((tech) => (
                     <span 
                       key={tech} 
-                      className="px-3.5 py-1.5 bg-white border border-slate-200 rounded-lg text-xs font-mono text-slate-600 hover:text-cyan-600 hover:border-cyan-300 transition-all hover:scale-105 duration-200 shadow-sm"
+                      className="px-3.5 py-1.5 bg-white border border-slate-200 rounded-lg text-xs text-slate-600 hover:text-cyan-600 hover:border-cyan-300 transition-all hover:scale-105 duration-200 shadow-sm"
                     >
                       {tech}
                     </span>
@@ -263,7 +263,7 @@ export default function App() {
               >
                 <div>
                   <div className="flex justify-between items-center mb-4 border-b border-slate-100 pb-2">
-                    <span className="text-[10px] font-mono text-cyan-600 font-bold">duc_sys_core.log</span>
+                    <span className="text-[10px] text-cyan-600 font-bold">duc_sys_core.log</span>
                     <span className="w-2 h-2 rounded-full bg-cyan-500 animate-pulse" />
                   </div>
                   <pre className="text-[8px] text-slate-500 font-mono space-y-1 overflow-hidden pointer-events-none">
@@ -281,7 +281,7 @@ export default function App() {
                   <div className="w-3/4 h-1.5 bg-slate-100 rounded-full overflow-hidden">
                     <div className="w-4/5 h-full bg-cyan-500" />
                   </div>
-                  <span className="text-[9px] font-mono text-slate-400">80%</span>
+                  <span className="text-[9px] text-slate-400">80%</span>
                 </div>
               </div>
 
@@ -304,7 +304,7 @@ export default function App() {
                   <div className="w-12 h-12 bg-white border border-cyan-200 rounded-xl flex items-center justify-center shadow-lg shadow-cyan-500/10 z-10" id="card-inner-icon">
                     <Sparkles className="w-6 h-6 text-cyan-500 animate-pulse" />
                   </div>
-                  <div className="text-[9px] font-mono text-cyan-600 mt-2 tracking-widest z-10 uppercase font-bold">
+                  <div className="text-[9px] text-cyan-600 mt-2 tracking-widest z-10 uppercase font-bold">
                     Orbital Network
                   </div>
                 </div>
@@ -322,9 +322,9 @@ export default function App() {
                   <div className="flex justify-between items-center border-t border-slate-100 pt-4" id="card-footer">
                     <div className="flex items-center gap-1">
                       <span className="w-2 h-2 rounded-full bg-cyan-500" />
-                      <span className="text-[10px] font-mono text-slate-550">Express & React</span>
+                      <span className="text-[10px] text-slate-550">Express & React</span>
                     </div>
-                    <span className="text-[9px] font-mono text-slate-400 uppercase">SYS_VER 5.1</span>
+                    <span className="text-[9px] text-slate-400 uppercase">SYS_VER 5.1</span>
                   </div>
                 </div>
               </div>
@@ -338,7 +338,7 @@ export default function App() {
               >
                 <div className="text-center">
                   <span className="block text-xl leading-none">✉️</span>
-                  <span className="text-[8px] font-mono text-cyan-600 tracking-tight uppercase font-bold">Contact</span>
+                  <span className="text-[8px] text-cyan-600 tracking-tight uppercase font-bold">Contact</span>
                 </div>
               </div>
 
@@ -350,7 +350,7 @@ export default function App() {
               >
                 <div className="text-center">
                   <span className="block text-lg leading-none">⚡</span>
-                  <span className="text-[8px] font-mono text-emerald-600 tracking-tight uppercase font-bold">60 fps</span>
+                  <span className="text-[8px] text-emerald-600 tracking-tight uppercase font-bold">60 fps</span>
                 </div>
               </div>
 
@@ -365,7 +365,7 @@ export default function App() {
           <ScrollReveal direction="up" duration={0.8}>
             <div className="flex flex-col md:flex-row md:items-end justify-between mb-16" id="projects-header-info">
               <div id="projects-title-block">
-                <span className="text-xs font-mono font-bold text-cyan-600 uppercase tracking-[0.3em] block mb-3">Portfolio Highlights</span>
+                <span className="text-xs font-bold text-cyan-600 uppercase tracking-[0.3em] block mb-3">Portfolio Highlights</span>
                 <h2 className="text-3xl sm:text-5xl font-extrabold text-slate-900 tracking-tight">
                   Selected <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-600">Projects</span>
                 </h2>
@@ -377,7 +377,7 @@ export default function App() {
                   <button
                     key={category}
                     onClick={() => setSelectedCategory(category)}
-                    className={`px-4 py-2 rounded-lg text-xs font-mono uppercase tracking-wider transition-all cursor-pointer ${
+                    className={`px-4 py-2 rounded-lg text-xs uppercase tracking-wider transition-all cursor-pointer ${
                       selectedCategory === category 
                         ? "bg-slate-900 text-white font-bold shadow-md" 
                         : "text-slate-600 hover:text-slate-950"
@@ -422,7 +422,7 @@ export default function App() {
                         )}
 
                         {/* Display metric as a floating badge */}
-                        <div className="absolute top-3 left-3 px-2 py-1 bg-cyan-50 border border-cyan-150 rounded-md text-[10px] font-mono text-cyan-700 tracking-tight font-bold" id="project-metric-badge">
+                        <div className="absolute top-3 left-3 px-2 py-1 bg-cyan-50 border border-cyan-150 rounded-md text-[10px] text-cyan-700 tracking-tight font-bold" id="project-metric-badge">
                           {project.metrics}
                         </div>
 
@@ -435,17 +435,17 @@ export default function App() {
                           ) : (
                             <Cpu className="w-10 h-10 text-emerald-600 group-hover:scale-110 duration-500 transition-transform" />
                           )}
-                          <span className="text-[10px] font-mono text-slate-500 mt-2 uppercase tracking-widest">{project.category}</span>
+                          <span className="text-[10px] text-slate-500 mt-2 uppercase tracking-widest">{project.category}</span>
                         </div>
                       </div>
 
                       {/* Metadata details */}
                       <div className="flex items-center gap-2 mb-3" id="project-top-meta">
-                        <span className="px-2.5 py-1 bg-slate-100 border border-slate-200 rounded-lg text-[10px] font-mono text-slate-600 uppercase">
+                        <span className="px-2.5 py-1 bg-slate-100 border border-slate-200 rounded-lg text-[10px] text-slate-600 uppercase">
                           {project.category}
                         </span>
                         {project.featured && (
-                          <span className="px-2 py-0.5 bg-cyan-50 border border-cyan-200 rounded-md text-[9px] font-mono text-cyan-700 flex items-center gap-1 font-bold">
+                          <span className="px-2 py-0.5 bg-cyan-50 border border-cyan-200 rounded-md text-[9px] text-cyan-700 flex items-center gap-1 font-bold">
                             ★ FEATURED
                           </span>
                         )}
@@ -464,7 +464,7 @@ export default function App() {
                       {/* Tags */}
                       <div className="flex flex-wrap gap-1.5 mb-6" id="project-tags-list">
                         {project.tags.map(tag => (
-                          <span key={tag} className="text-[10px] font-mono text-slate-600 bg-slate-100 px-2 py-1 rounded">
+                          <span key={tag} className="text-[10px] text-slate-600 bg-slate-100 px-2 py-1 rounded">
                             {tag}
                           </span>
                         ))}
@@ -490,7 +490,7 @@ export default function App() {
           <ScrollReveal direction="up" delay={0.15} duration={0.8} className="mt-16">
             <div className="bg-white border border-slate-200 p-6 sm:p-8 rounded-3xl shadow-sm" id="gtos-live-preview-section">
               <div className="max-w-2xl mb-8">
-                <span className="text-[10px] font-mono font-bold text-cyan-600 uppercase tracking-[0.2em] block mb-2">Interactive Simulation</span>
+                <span className="text-[10px] font-bold text-cyan-600 uppercase tracking-[0.2em] block mb-2">Interactive Simulation</span>
                 <h3 className="text-xl sm:text-2xl font-bold text-slate-900 mb-3">
                   GTOS Live Operating Interface Simulator
                 </h3>
@@ -513,7 +513,7 @@ export default function App() {
               {/* Header block with close */}
               <div className="p-6 border-b border-slate-200 flex justify-between items-center bg-slate-50" id="modal-header">
                 <div>
-                  <span className="text-[10px] font-mono text-cyan-700 tracking-widest uppercase block mb-1 font-bold">{selectedProject.category} Solution</span>
+                  <span className="text-[10px] text-cyan-700 tracking-widest uppercase block mb-1 font-bold">{selectedProject.category} Solution</span>
                   <h3 className="text-2xl font-bold text-slate-900">{selectedProject.title}</h3>
                 </div>
                 <button 
@@ -528,12 +528,12 @@ export default function App() {
               {/* Payload Details */}
               <div className="p-6 space-y-6 max-h-[70vh] overflow-y-auto" id="modal-body">
                 <div>
-                  <h4 className="text-xs font-mono text-slate-400 uppercase tracking-wider mb-2">project overview</h4>
+                  <h4 className="text-xs text-slate-400 uppercase tracking-wider mb-2">project overview</h4>
                   <p className="text-sm text-slate-700 leading-relaxed">{selectedProject.description}</p>
                 </div>
 
                 <div className="bg-cyan-50/50 p-4 rounded-xl border border-cyan-100">
-                  <h4 className="text-xs font-mono text-cyan-700 uppercase tracking-wider mb-2 flex items-center gap-1 font-bold">
+                  <h4 className="text-xs text-cyan-700 uppercase tracking-wider mb-2 flex items-center gap-1 font-bold">
                     <Zap className="w-3.5 h-3.5" />
                     TECHNICAL SOLUTIONS & PERFORMANCE OPTIMIZATION
                   </h4>
@@ -542,20 +542,20 @@ export default function App() {
 
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-slate-50 p-3 rounded-lg border border-slate-200">
-                    <span className="text-[10px] font-mono text-slate-400 block">KEY METRICS ACHIEVED</span>
+                    <span className="text-[10px] text-slate-400 block">KEY METRICS ACHIEVED</span>
                     <span className="text-sm font-bold text-emerald-700">{selectedProject.metrics}</span>
                   </div>
                   <div className="bg-slate-50 p-3 rounded-lg border border-slate-200">
-                    <span className="text-[10px] font-mono text-slate-400 block">DEVELOPMENT ROLE</span>
+                    <span className="text-[10px] text-slate-400 block">DEVELOPMENT ROLE</span>
                     <span className="text-sm font-bold text-slate-800">{selectedProject.role || "Full-stack Developer"}</span>
                   </div>
                 </div>
 
                 <div>
-                  <h4 className="text-xs font-mono text-slate-400 uppercase tracking-wider mb-3">primary technology stack</h4>
+                  <h4 className="text-xs text-slate-400 uppercase tracking-wider mb-3">primary technology stack</h4>
                   <div className="flex flex-wrap gap-2">
                     {selectedProject.tags.map(tag => (
-                      <span key={tag} className="px-3 py-1 bg-slate-100 border border-slate-200 rounded-lg text-xs font-mono text-slate-600">
+                      <span key={tag} className="px-3 py-1 bg-slate-100 border border-slate-200 rounded-lg text-xs text-slate-600">
                         {tag}
                       </span>
                     ))}
@@ -564,7 +564,7 @@ export default function App() {
 
                 {selectedProject.id === "gtos-tos" && (
                   <div className="border-t border-slate-200 pt-6">
-                    <h4 className="text-xs font-mono text-cyan-700 uppercase tracking-wider mb-4 flex items-center gap-1.5 font-bold">
+                    <h4 className="text-xs text-cyan-700 uppercase tracking-wider mb-4 flex items-center gap-1.5 font-bold">
                       <span>🖥️ DEEP INTERACTIVE SYSTEM MOCKUP</span>
                     </h4>
                     <GTOSInteractiveMockup />
@@ -628,7 +628,7 @@ export default function App() {
             
             {/* Left Info side */}
             <ScrollReveal direction="left" className="lg:col-span-4" id="skills-left" duration={0.8}>
-              <span className="text-xs font-mono font-bold text-cyan-600 uppercase tracking-[0.3em] block mb-3">Core Capabilities</span>
+              <span className="text-xs font-bold text-cyan-600 uppercase tracking-[0.3em] block mb-3">Core Capabilities</span>
               <h2 className="text-2xl sm:text-3xl lg:text-3xl font-extrabold text-slate-900 tracking-tight leading-tight mb-6 animate-fade-in">
                 Expertise & <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-cyan-600">Technical Stack</span>
               </h2>
@@ -641,7 +641,7 @@ export default function App() {
                   <div className="w-8 h-8 bg-cyan-100 rounded-lg flex items-center justify-center">
                     <CheckCircle2 className="w-4 h-4 text-cyan-700" />
                   </div>
-                  <span className="text-xs font-mono font-bold text-slate-800 uppercase tracking-wider">FULL-STACK PRODUCTION READY</span>
+                  <span className="text-xs font-bold text-slate-800 uppercase tracking-wider">FULL-STACK PRODUCTION READY</span>
                 </div>
                 <p className="text-xs text-slate-600 leading-relaxed">
                   Enforcing clean unidirectional and bi-directional data flow, designing RESTful/WebSocket APIs with extreme care, crafting responsive web layouts, and containerizing runtimes cleanly with Docker.
@@ -661,7 +661,7 @@ export default function App() {
                       {/* Visual glowing accent */}
                       <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-cyan-500/5 to-transparent pointer-events-none" />
 
-                      <h3 className="text-sm font-mono font-bold text-cyan-700 uppercase tracking-widest mb-6 border-b border-slate-100 pb-3 flex items-center gap-2">
+                      <h3 className="text-sm font-bold text-cyan-700 uppercase tracking-widest mb-6 border-b border-slate-100 pb-3 flex items-center gap-2">
                         <Sparkles className="w-4 h-4 text-cyan-600" />
                         {cat}
                       </h3>
@@ -674,7 +674,7 @@ export default function App() {
                                 <span className="shrink-0 pt-0.5">{renderSkillIcon(skill.iconName)}</span>
                                 <span className="truncate sm:whitespace-normal leading-tight">{skill.name}</span>
                               </span>
-                              <span className="text-slate-500 font-mono text-[10px] whitespace-nowrap shrink-0 pt-0.5">{skill.level}%</span>
+                              <span className="text-slate-500 text-[10px] whitespace-nowrap shrink-0 pt-0.5">{skill.level}%</span>
                             </div>
                             
                             {/* Premium indicator track */}
@@ -704,7 +704,7 @@ export default function App() {
             
             <ScrollReveal direction="up" duration={0.8}>
               <div className="text-center mb-16" id="experience-header-block">
-                <span className="text-xs font-mono font-bold text-cyan-600 uppercase tracking-[0.3em] block mb-3">Professional Milestones</span>
+                <span className="text-xs font-bold text-cyan-600 uppercase tracking-[0.3em] block mb-3">Professional Milestones</span>
                 <h2 className="text-3xl sm:text-5xl font-extrabold text-slate-900 tracking-tight">Professional Experience</h2>
               </div>
             </ScrollReveal>
@@ -728,17 +728,17 @@ export default function App() {
 
                   {/* Year block floating */}
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
-                    <span className="px-3 py-1 bg-cyan-50 border border-cyan-200 rounded-lg text-xs font-mono text-cyan-700 w-fit font-bold">
+                    <span className="px-3 py-1 bg-cyan-50 border border-cyan-200 rounded-lg text-xs text-cyan-700 w-fit font-bold">
                       {exp.period}
                     </span>
-                    <span className="text-xs font-mono text-slate-500 mt-1 sm:mt-0">{exp.location}</span>
+                    <span className="text-xs text-slate-500 mt-1 sm:mt-0">{exp.location}</span>
                   </div>
 
                   <h3 className="text-xl font-bold text-slate-900 group-hover:text-cyan-600 transition-colors duration-200">
                     {exp.role}
                   </h3>
                   
-                  <span className="text-md font-mono text-slate-500 block mb-4 font-semibold">
+                  <span className="text-md text-slate-500 block mb-4 font-semibold">
                     {exp.company}
                   </span>
 
@@ -755,7 +755,7 @@ export default function App() {
                   {/* Skills tags deployed */}
                   <div className="flex flex-wrap gap-1.5 mb-2">
                     {exp.skills.map((skill) => (
-                      <span key={skill} className="px-2.5 py-1 bg-slate-100 border border-slate-200 text-slate-600 text-[10px] font-mono rounded-md shadow-sm">
+                      <span key={skill} className="px-2.5 py-1 bg-slate-100 border border-slate-200 text-slate-600 text-[10px] rounded-md shadow-sm">
                         {skill}
                       </span>
                     ))}
@@ -780,7 +780,7 @@ export default function App() {
             {/* Direct Contact Invitation Left */}
             <ScrollReveal direction="left" className="lg:col-span-5 flex flex-col justify-between" id="contact-info-panel" duration={0.8}>
               <div id="contact-intro-main">
-                <span className="text-xs font-mono font-bold text-cyan-600 uppercase tracking-[0.3em] block mb-3">Contact</span>
+                <span className="text-xs font-bold text-cyan-600 uppercase tracking-[0.3em] block mb-3">Contact</span>
                 <h2 className="text-2xl sm:text-3xl lg:text-3xl font-extrabold text-slate-900 tracking-tight leading-tight mb-6">
                   Let's Connect <br />
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-600">& Discuss Opportunities</span>
@@ -796,7 +796,7 @@ export default function App() {
 
                 {/* Direct info list */}
                 <div className="space-y-4" id="direct-contact-shortlist">
-                  <span className="text-[10px] font-mono text-slate-400 uppercase tracking-widest block font-bold">CONTACT DETAILS</span>
+                  <span className="text-[10px] text-slate-400 uppercase tracking-widest block font-bold">CONTACT DETAILS</span>
                   <div className="space-y-3">
                     <div className="flex items-center gap-3 text-xs text-slate-600">
                       <div className="w-8 h-8 rounded-lg bg-slate-100 border border-slate-200 flex items-center justify-center shrink-0 shadow-sm">
@@ -817,7 +817,7 @@ export default function App() {
               {/* Status Banner */}
               <div className="p-3 bg-cyan-50 border border-cyan-150 rounded-xl mt-8 flex items-start gap-2.5" id="contact-instruction-banner">
                 <Info className="w-4 h-4 text-cyan-600 shrink-0 mt-0.5" />
-                <span className="text-[10px] font-mono text-cyan-850 leading-normal font-medium">
+                <span className="text-[10px] text-cyan-850 leading-normal font-medium">
                   Cuong's contact information is verified and monitored daily. Please feel free to call, email, or message him directly to coordinate interviews or code discussions!
                 </span>
               </div>
@@ -829,10 +829,10 @@ export default function App() {
                 
                 <div className="mb-6" id="contact-cards-header">
                   <div className="flex flex-wrap items-center gap-3 mb-2.5">
-                    <span className="px-2 py-0.5 bg-cyan-50 border border-cyan-150 rounded-md text-[9px] uppercase font-mono font-bold text-cyan-700 flex items-center gap-1">
+                    <span className="px-2 py-0.5 bg-cyan-50 border border-cyan-150 rounded-md text-[9px] uppercase font-bold text-cyan-700 flex items-center gap-1">
                       <Zap className="w-3 h-3 text-cyan-600" /> Fast Response
                     </span>
-                    <span className="text-emerald-600 text-[10px] font-mono flex items-center gap-1 font-bold">
+                    <span className="text-emerald-600 text-[10px] flex items-center gap-1 font-bold">
                       ● Actively seeking opportunities
                     </span>
                   </div>
@@ -856,12 +856,12 @@ export default function App() {
                         <button
                           type="button"
                           onClick={() => handleCopy("phamquocuong19@gmail.com", "email")}
-                          className="text-[9px] font-mono text-slate-500 hover:text-cyan-600 bg-white border border-slate-200 hover:border-cyan-200 px-2 py-0.5 rounded transition-all cursor-pointer shadow-sm active:scale-95"
+                          className="text-[9px] text-slate-500 hover:text-cyan-600 bg-white border border-slate-200 hover:border-cyan-200 px-2 py-0.5 rounded transition-all cursor-pointer shadow-sm active:scale-95"
                         >
                           {copiedText === "email" ? "Copied! ✓" : "Copy"}
                         </button>
                       </div>
-                      <h4 className="text-[10px] font-mono font-bold uppercase text-slate-400 tracking-wider mb-1">
+                      <h4 className="text-[10px] font-bold uppercase text-slate-400 tracking-wider mb-1">
                         Direct Email Address
                       </h4>
                       <p className="text-slate-950 font-bold text-xs sm:text-sm truncate" title="phamquocuong19@gmail.com">
@@ -893,12 +893,12 @@ export default function App() {
                         <button
                           type="button"
                           onClick={() => handleCopy("0345065273", "phone")}
-                          className="text-[9px] font-mono text-slate-500 hover:text-cyan-600 bg-white border border-slate-200 hover:border-cyan-200 px-2 py-0.5 rounded transition-all cursor-pointer shadow-sm active:scale-95"
+                          className="text-[9px] text-slate-500 hover:text-cyan-600 bg-white border border-slate-200 hover:border-cyan-200 px-2 py-0.5 rounded transition-all cursor-pointer shadow-sm active:scale-95"
                         >
                           {copiedText === "phone" ? "Copied! ✓" : "Copy"}
                         </button>
                       </div>
-                      <h4 className="text-[10px] font-mono font-bold uppercase text-slate-400 tracking-wider mb-1">
+                      <h4 className="text-[10px] font-bold uppercase text-slate-400 tracking-wider mb-1">
                         Phone & Zalo Contact
                       </h4>
                       <p className="text-slate-950 font-bold text-xs sm:text-sm">
@@ -934,11 +934,11 @@ export default function App() {
                         <div className="w-9 h-9 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center text-white group-hover:scale-110 transition-transform">
                           <Github className="w-4.5 h-4.5" />
                         </div>
-                        <span className="text-[9px] font-mono text-cyan-600 uppercase tracking-widest font-bold">
+                        <span className="text-[9px] text-cyan-600 uppercase tracking-widest font-bold">
                           Code Space
                         </span>
                       </div>
-                      <h4 className="text-[10px] font-mono font-bold uppercase text-slate-400 tracking-wider mb-1">
+                      <h4 className="text-[10px] font-bold uppercase text-slate-400 tracking-wider mb-1">
                         Open Source Registries
                       </h4>
                       <p className="text-slate-950 font-bold text-xs sm:text-sm truncate">
@@ -967,11 +967,11 @@ export default function App() {
                         <div className="w-9 h-9 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-blue-600 group-hover:scale-110 transition-transform">
                           <Linkedin className="w-4.5 h-4.5" />
                         </div>
-                        <span className="text-[9px] font-mono text-blue-600 uppercase tracking-widest font-bold">
+                        <span className="text-[9px] text-blue-600 uppercase tracking-widest font-bold">
                           Connect
                         </span>
                       </div>
-                      <h4 className="text-[10px] font-mono font-bold uppercase text-slate-400 tracking-wider mb-1">
+                      <h4 className="text-[10px] font-bold uppercase text-slate-400 tracking-wider mb-1">
                         Professional Network
                       </h4>
                       <p className="text-slate-950 font-bold text-xs sm:text-sm truncate">
@@ -1014,13 +1014,13 @@ export default function App() {
             <p className="text-xs text-slate-650 leading-relaxed max-w-sm font-sans font-medium">
               Portfolio of an agile Full-stack/Backend Developer specialized in Terminal Operating Systems (TOS) and real-time medical clinic SaaS solutions.
             </p>
-            <p className="text-[10px] text-slate-500 font-mono pt-4">
+            <p className="text-[10px] text-slate-500 pt-4">
               © {new Date().getFullYear()} Pham Quoc Cuong. All rights reserved.
             </p>
           </div>
 
           <div className="md:col-span-4 space-y-4" id="footer-middle">
-            <h4 className="text-xs font-mono font-bold text-slate-900 uppercase tracking-wider mb-2 font-bold">contact info</h4>
+            <h4 className="text-xs font-bold text-slate-900 uppercase tracking-wider mb-2 font-bold">contact info</h4>
             <div className="space-y-2 text-xs text-slate-600" id="footer-contact-details">
               <a href="mailto:phamquocuong19@gmail.com" className="flex items-center gap-3 hover:text-cyan-600 transition-colors">
                 <Mail className="w-4 h-4 text-cyan-600" />
@@ -1038,7 +1038,7 @@ export default function App() {
           </div>
 
           <div className="md:col-span-4 space-y-4" id="footer-right">
-            <h4 className="text-xs font-mono font-bold text-slate-900 uppercase tracking-wider mb-2 font-bold">socials & codebases</h4>
+            <h4 className="text-xs font-bold text-slate-900 uppercase tracking-wider mb-2 font-bold">socials & codebases</h4>
             <div className="flex gap-4 pt-2" id="footer-social-links">
               <a 
                 href="https://github.com/phamquoccuong20" 
